@@ -223,33 +223,33 @@
                     <div class="factura">
                         <h3>Factura - Guía</h3>
                         🪪 Nombre: ${[...nombres].join(', ')} <br>
-                        🔰 Rango: Guía <br>
-                        🕒 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
-                        👋 Bienvenidas: ${totalBienvenidas} <br>
-                        📘 Ayudas: ${totalAyudas} <br>
+                        🪪 Rango: Guía <br>
+                        🪪 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
+                        🪪 Bienvenidas: ${totalBienvenidas} <br>
+                        🪪 Ayudas: ${totalAyudas} <br>
                     </div>`;
             } else if (rolSeleccionado === "embajador") {
                 resultadoFactura += `
                     <div class="factura">
                         <h3>Factura - Embajador</h3>
-                        🪪 Nombre: ${[...nombres].join(', ')} <br>
+                        🔰 Nombre: ${[...nombres].join(', ')} <br>
                         🔰 Rango: Embajador <br>
-                        🕒 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
-                        🚨 Alertas: ${totalAlertas} <br>
-                        🔇 Muteos: ${totalMuteos} <br>
-                        📘 Ayudas: ${totalAyudas} <br>
+                        🔰 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
+                        🔰 Alertas: ${totalAlertas} <br>
+                        🔰 Muteos: ${totalMuteos} <br>
+                        🔰 Ayudas: ${totalAyudas} <br>
                     </div>`;
             } else if (rolSeleccionado === "moderador") {
                 resultadoFactura += `
                     <div class="factura">
                         <h3>Factura - Moderador</h3>
-                        🪪 Nombre: ${[...nombres].join(', ')} <br>
-                        🔰 Rango: Moderador <br>
-                        🕒 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
-                        🚨 Alertas: ${totalAlertas} <br>
-                        🔇 Muteos: ${totalMuteos} <br>
-                        ⛔ Baneos: ${totalBaneos} <br>
-                        🎫 Tickets atendidos: ${totalTickets} <br>
+                        🚔 Nombre: ${[...nombres].join(', ')} <br>
+                        🚔 Rango: Moderador <br>
+                        🚔 Horas trabajadas: ${horasTrabajadas.horas} horas ${horasTrabajadas.minutos} minutos <br>
+                        🚔 Alertas: ${totalAlertas} <br>
+                        🚔 Muteos: ${totalMuteos} <br>
+                        🚔 Baneos: ${totalBaneos} <br>
+                        🚔 Tickets atendidos: ${totalTickets} <br>
                     </div>`;
             }
 
